@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Examples | Behind the Screen</title>
+<meta name="description" content="Behind the Screen: a blog about digital responsibility and critical thinking online.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="index.html">Behind the Screen</a>
+<nav aria-label="Main"><a href="index.html">Home</a><a href="about.html">About</a><a href="ideas.html">Key ideas</a><a href="check.html">How to check</a><a href="examples.html" aria-current="page">Examples</a><a href="verify.html">Where to verify</a><a href="references.html">References</a></nav>
+</div></header>
+<main><div class="wrap">
+<div class="page"><h1 class="title">Examples</h1>
+<p class="lead">Well-known cases that were already verified by journalists, scientists or authorities.</p>
+<div class="filters" role="group" aria-label="Filter examples">
+<button type="button" data-filter="todos" aria-pressed="true">All</button>
+<button type="button" data-filter="falso" aria-pressed="false">False</button>
+<button type="button" data-filter="verdadero" aria-pressed="false">True</button>
+<button type="button" data-filter="enganoso" aria-pressed="false">Misleading</button>
+</div>
+<div class="cases"><article class="case" data-type="falso"><span class="stamp falso">FALSE</span><h3>"COVID-19 vaccines contain microchips"</h3><p>This rumor, which blamed Bill Gates, spread on social media during the pandemic. Vaccines do not contain microchips or tracking devices, and manufacturers and health agencies publish their ingredients.</p><p class="src">How to spot it: no scientific source supports it, and it plays on fear.</p></article><article class="case" data-type="falso"><span class="stamp falso">FALSE</span><h3>"Drinking bleach or disinfectant cures COVID-19"</h3><p>This is false and dangerous. Health authorities warned that swallowing these products causes serious poisoning and does not protect against the virus.</p><p class="src">How to spot it: miracle cures with no clinical studies are a red flag.</p></article><article class="case" data-type="falso"><span class="stamp falso">FALSE</span><h3>"Pope Francis endorsed Donald Trump in 2016"</h3><p>A website imitating a news outlet published this story during the U.S. election and it spread widely on Facebook. The Vatican made no such endorsement.</p><p class="src">How to spot it: the site was unknown and no serious outlet reported it.</p></article><article class="case" data-type="verdadero"><span class="stamp verdadero">TRUE</span><h3>"Current climate change is mainly caused by human activity"</h3><p>This is the conclusion of the scientific consensus. Organizations such as the IPCC and NASA state that burning fossil fuels is the main cause of recent warming.</p><p class="src">How to check it: many independent studies and scientific bodies support it.</p></article><article class="case" data-type="verdadero"><span class="stamp verdadero">TRUE</span><h3>"Humans reached the Moon in 1969"</h3><p>Apollo 11 landed on the Moon. Moon rocks have been studied by scientists in several countries, and laser reflectors left there are still used to measure the distance to the Moon.</p><p class="src">How to check it: there is physical evidence that independent teams can verify.</p></article><article class="case" data-type="enganoso"><span class="stamp enganoso">MISLEADING</span><h3>"The 1938 War of the Worlds radio broadcast caused mass panic"</h3><p>Orson Welles' adaptation did air and some listeners were alarmed, but historians say the mass panic was exaggerated by newspapers of the time, which saw radio as a competitor.</p><p class="src">How to spot it: a real event told with more drama than it had.</p></article></div>
+<p class="note"><strong>Editing tip:</strong> each example is an <code>&lt;article class="case"&gt;</code> block. Copy one, change the text and set <code>data-type</code> to <code>falso</code>, <code>verdadero</code> or <code>enganoso</code>.</p></div>
+<div class="pager"><a href="check.html">&larr; How to check</a><a href="verify.html">Where to verify &rarr;</a></div>
+</div></main>
+<footer><div class="wrap">
+<p>Yasbleidy Ortega, Karol Tumbajoy and Diana Cifuentes</p>
+<p>Corporación Universitaria Minuto de Dios · Licenciatura en Lenguas Extranjeras con Énfasis en Inglés · Professor: Óscar Orlando Muriel Pedraza · September 2026</p>
+</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
